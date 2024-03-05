@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # Veri setlerini birleştir
-merged_data = pd.read_csv("Deutch_Data_2022.csv", sep=";", skiprows=[1])
+merged_data = pd.read_csv("llj_indexed_datas_2022.csv", sep=";", skiprows=[1])
 
 
 # Veri setindeki tarih sütununu datetime formatına dönüştür
